@@ -79,23 +79,9 @@
             android:id="@+id/display_id"
             android:textSize="20sp"
             >
-
-
-
-
         </TextView>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/display_id1"
-            android:textSize="20sp"
-            >
 
-
-
-
-        </TextView>
 
     </android.support.v4.widget.NestedScrollView>
 
