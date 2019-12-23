@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".UpdateInformation">
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="255dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="8dp"
+        android:hint="Your Name"
+        android:layout_gravity="center"
+       />
+
+    <EditText
+        android:id="@+id/editfather"
+        android:layout_width="255dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="8dp"
+        android:hint="Father's Name"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/editmother"
+        android:layout_width="255dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="8dp"
+        android:hint="Mother's Name"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/editNID"
+        android:layout_width="255dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="8dp"
+        android:hint="NID/Birth Certificate"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:maxLength="17"
+        />
+
+
+    <EditText
+        android:id="@+id/editaddress"
+        android:layout_width="255dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="8dp"
+        android:hint="Address"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_enable"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        >
+
+
+    </Button>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/display_id"
+            android:textSize="20sp"
+            >
+
+
+        </TextView>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+
+</LinearLayout>

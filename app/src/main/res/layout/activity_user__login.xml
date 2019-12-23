@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".User_Login">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to this application"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+
+        >
+
+    </TextView>
+
+
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A bus ride shareing application"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="90dp"
+            android:layout_height="96dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/bangladesh">
+
+
+        </ImageView>
+
+       <TextView
+           android:id="@+id/textview4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="+88"
+           android:textSize="25sp"
+           android:layout_gravity="center"
+           android:layout_marginLeft="10dp"
+           >
+
+       </TextView>
+
+        <EditText
+            android:id="@+id/etnum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_gravity="center"
+            >
+
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:checked="false"
+
+        android:text="I have read and agree to share my personal information"
+        >
+
+
+    </CheckBox>
+
+    <Button
+        android:id="@+id/btnsend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:textSize="20dp"
+        android:enabled="false"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/default_button"
+        android:textColor="#FDFDFD"
+        >
+
+
+    </Button>
+
+
+</LinearLayout>
